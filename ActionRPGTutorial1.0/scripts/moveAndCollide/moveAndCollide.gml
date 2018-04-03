@@ -22,7 +22,7 @@ else
 if(place_meeting(x, y + yadd, obj_wall))
 {
 	while(! place_meeting(x, y + argument1, obj_wall))	
-		x += argument0;
+		y += argument1;
 }
 else
-	x += xyadd;
+	y += yadd;
